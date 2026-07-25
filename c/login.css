@@ -1,0 +1,344 @@
+body {
+  text-align: center;
+  margin: 50px 0;
+  padding: 0;
+}
+.login-outer {
+  border: none;
+  color: black;
+  background-color: #ddd;
+  margin: 0 auto;
+  padding: 0;
+  border-collapse: collapse;
+}
+.login-outer-header {
+  color: white;
+  background-color: #409;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.title-div {
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 4px;
+}
+.login-outer-body {
+  vertical-align: top;
+}
+.login-form-table {
+  border: none;
+  margin: 8px;
+}
+.error-row {
+  font-size: 83%;
+  color: #d93025;
+  font-weight: bold;
+}
+.label-cell {
+  text-align: right;
+}
+.field-cell {
+  text-align: left;
+}
+.small-note {
+  font-size: x-small;
+  text-align: right;
+  color: #666;
+}
+.submit-cell {
+  text-align: right;
+}
+.image-frame {
+  border: 10px;
+}
+.login-image {
+  border: 1px solid black;
+  margin: 8px;
+  object-fit: scale-down;
+  max-width: 400px;
+  max-height: 400px;
+  min-width: 200px;
+  min-height: 200px;
+}
+.switch-to-gnubby {
+  font-size: 100%;
+  font-weight: 300;
+}
+
+body,td,div,p,a,font,span {
+  font-family: arial,sans-serif;
+}
+body {
+  margin-top: 2;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.bubble img {
+  width: 4;
+  height: 4;
+}
+
+.gnubby-ad-steps, .gnubby-ad-reasons, .gnubby-ad-continue {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.gnubby-ad-page h1 {
+  color: red;
+}
+
+.gnubby-ad-page li {
+  font-size: 100%
+}
+
+.gnubby-ad-continue {
+  padding-left: 1em;
+}
+
+.gnubby-ad-insert-image {
+  text-align: center;
+}
+
+.gnubby-ad-steps img {
+  padding-left: 5em;
+}
+
+.gnubby-ad-continue {
+  text-align: center;
+}
+
+.gnubby-ad-continue a {
+  background: yellow;
+}
+
+.gnubby-ad-continue a {
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.bubble {
+  background-color: #86EEAD;
+}
+.bubble-gnubby {
+  text-align: left;
+  padding: 3px;
+  background-color: #EBDF35;
+}
+th.bubble, th.bubble a:link, th.bubble a:visited {
+  color: black;
+}
+
+td.bubble, td.bubble a:link, td.bubble a:visited {
+  color: black;
+}
+
+.signin {
+  border: #86EEAD 2px solid;
+  background-color: #DAFAE6;
+}
+.gnubby-signin {
+  border: #EBDF35 2px solid;
+  background-color: lightYellow;
+}
+.gnubby-enroll {
+  transition: height 1s;
+}
+.signin td {
+  padding: 5px;
+}
+.gnubby-success-title {
+  color: green;
+}
+
+.gnubby-success-text {
+  color: blue;
+}
+
+.iframesignin {
+  background-color: #DAFAE6;
+}
+
+th.bubble {
+  font-family: arial;
+  text-align: left;
+  font-weight: bold;
+  padding: 3 0;
+}
+
+.footer th.bubble {
+  font-weight: normal;
+  text-align: center;
+}
+.footer th.bubble span {
+  font-size: 83%;
+}
+
+.tl {padding: 0; width: 4; text-align: left; vertical-align: top}
+.tr {padding: 0; width: 4; text-align: right; vertical-align: top}
+.bl {padding: 0; width: 4; text-align: left; vertical-align: bottom}
+.br {padding: 0; width: 4; text-align: right; vertical-align: bottom}
+
+.caption {
+  font-weight: bold;
+  font-size: 83%;
+  color: black;
+  white-space: nowrap;
+  text-align: center;
+  margin-top: 3;
+  margin-bottom: 7;
+}
+
+li {
+  font-weight: bold;
+  font-size: 83%;
+  margin-top: 1.3ex;
+  margin-bottom: 1.3ex;
+}
+
+.errormsg {
+  font-weight: bold;
+  color: red;
+}
+
+/* For Gnubby tap/enrollment errors. */
+#errormessage {
+  color: red;
+}
+
+.reload {
+  text-decoration: none;
+  font-size: 85%;
+  margin-left: 1em;
+  margin-right: 0;
+}
+
+.serviceStats {
+  font-size: 66%;
+  color: #666;
+  padding-left: 3%;
+  text-align: left;
+}
+
+.fake-login-entry {
+  background-color: #AAAAAA;
+}
+
+.gaiaAccessUrls {
+  font-weight: bold;
+}
+
+.ngauth-info {
+  color: sienna;
+  text-align: center;
+}
+
+.corplogin-auth-message-block {
+  margin-bottom: 1em;
+}
+
+.corplogin-auth-message {
+  font-weight: bold;
+  background-color: cadetblue;
+}
+
+.ssobox {
+  display: inline-block;
+  padding: .5em 2em;
+  margin: 7px;
+}
+
+.help-side {
+  text-align: right;
+}
+
+.help-popup {
+  background-color: white;
+  padding: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+#gnubby-update-wait-spinner {
+  display: block;
+  margin: auto;
+}
+
+.waitfortouch-portablesk-gnubby-update, .waitfortouch-portablesk-plug,
+.waitfortouch-portablesk-touch{
+  background-size: 9em;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  opacity: 1;
+  height: 6em;
+  width: 12em;
+  margin-bottom: .5em;
+}
+
+.waitfortouch-portablesk-plug {
+  background-image: url(c/1x1.gif);
+  margin-bottom: .5em;
+}
+
+.waitfortouch-portablesk-gnubby-update {
+  background-image: url(c/1x1.gif);
+  margin-bottom: .5em;
+}
+
+.waitfortouch-portablesk-touch {
+  background-image: url(c/1x1.gif);
+  margin-bottom: 1em;
+}
+
+.waitfortouch-spinner {
+  background-image: url(c/progress_spinner.gif);
+  background-size: 1.5em;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em;
+  position: relative;
+}
+
+#waitfortouch-gnubby {
+  background-image: url(c/gnubby-very-small.png);
+  background-size: 32px;
+  background-position: center;
+  display: inline-block;
+  opacity: 1;
+  height: 32px;
+  width: 32px;
+}
+
+a.newtab::after {
+  content: '';
+  background: transparent url(c/1x1.gif) center right no-repeat;
+  background-size: auto 100%;
+  padding-right: 1.5em;
+}
+
+a:focus {
+  outline: solid;
+}
+
+.webauthn-lowered {
+  margin-top: 16em;
+}
+
+.sr-only {
+  position: absolute;
+  left: -99999px;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
