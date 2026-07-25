@@ -285,22 +285,22 @@ li {
 }
 
 .waitfortouch-portablesk-plug {
-  background-image: url(//static.corp.google.com/corpsso/c/portable-sk-plug.gif);
+  background-image: url(c/gnubby-very-small.png);
   margin-bottom: .5em;
 }
 
 .waitfortouch-portablesk-gnubby-update {
-  background-image: url(//static.corp.google.com/corpsso/c/gnubby-update.gif);
+  background-image: url(c/gnubby-very-small.png);
   margin-bottom: .5em;
 }
 
 .waitfortouch-portablesk-touch {
-  background-image: url(//static.corp.google.com/corpsso/c/portable-sk-plugged-touch.gif);
+  background-image: url(c/gnubby-very-small.png);
   margin-bottom: 1em;
 }
 
 .waitfortouch-spinner {
-  background-image: url(/c/progress_spinner.gif);
+  background-image: url(c/progress_spinner.gif);
   background-size: 1.5em;
   background-position: center;
   background-repeat: no-repeat;
@@ -311,7 +311,7 @@ li {
 }
 
 #waitfortouch-gnubby {
-  background-image: url(/c/gnubby-very-small.png);
+  background-image: url(c/gnubby-very-small.png);
   background-size: 32px;
   background-position: center;
   display: inline-block;
